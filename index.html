@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=utf-8" http-equiv="content-type">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Modelling sequences and temporal networks with dynamic community structures</title>
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/black.css">
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+    <!-- Printing and PDF exports -->
+    <script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section data-background="#F5F5F5">
+          <a> <img data-src="http://imglf6.nosdn.127.net/img/Q20zbTVFMnRqRVdPUVFnTWttNmMrZmd3blRSU1ZDTldlTjZVMi9XU3NCNXdBOUgwT0NnVTZnPT0.png?imageView&thumbnail=1680x0&quality=96&stripmeta=0&type=jpg"
+                alt="Up arrow"
+               > </a> 
+        <p align="right">崔浩川 &emsp; 2017.10 &emsp; &emsp;&emsp; </p>
+        </section>
+		
+		<section>
+			<section data-background="#F0F8FF" data-markdown>
+				<script type="text/template">
+					# 回顾
+				</script> 
+				
+			</section>
+				<section>
+				<a> <img data-src="http://imglf4.nosdn.127.net/img/Q20zbTVFMnRqRVVZRDRDQXJ1UE5ETFpna3RjTnVaam4rYzdmL3pGWDcxY0xoOUpBdzhTQkRRPT0.png?imageView&thumbnail=1680x0&quality=96&stripmeta=0&type=jpg"
+                alt="Up arrow"
+               > </a>
+				<a> <img data-src="http://imglf3.nosdn.127.net/img/Q20zbTVFMnRqRVVZRDRDQXJ1UE5ES0ZacjZEdUlQei82YUh2SkdDN1I1SDZQeCtWRnAwNWRRPT0.png?imageView&thumbnail=1680x0&quality=96&stripmeta=0&type=jpg"
+                alt="Up arrow"
+               > </a>
+			   
+			</section>
+			<section>
+				<a> <img data-src="http://imglf5.nosdn.127.net/img/Q20zbTVFMnRqRVVZRDRDQXJ1UE5ETlB0K2FMR2R5QisySjJtMEhsSnVvcUl0Y3BjTWNLL3NBPT0.png?imageView&thumbnail=1680x0&quality=96&stripmeta=0&type=jpg"
+                alt="Up arrow"
+               > </a>
+			   <a> <img data-src="http://imglf3.nosdn.127.net/img/Q20zbTVFMnRqRVVZRDRDQXJ1UE5ETjNHeTVhdTRiTnMxVG92K21CRXhVN3dVQ09VczBCU0hRPT0.png?imageView&thumbnail=1680x0&quality=96&stripmeta=0&type=jpg"
+                alt="Up arrow"
+               > </a>
+			</section>
+			<section>
+				<a> <img data-src="http://imglf5.nosdn.127.net/img/Q20zbTVFMnRqRVVZRDRDQXJ1UE5ESjJwbDk0Rk1QSUJEbUIvTXM5V2kxUUd2eXQvUzdzWDZnPT0.png?imageView&thumbnail=1680x0&quality=96&stripmeta=0&type=jpg"
+                alt="Up arrow"
+               > </a>
+			   <a style="float:left; left:-100px;top:-30px"><img data-src="http://imglf4.nosdn.127.net/img/Q20zbTVFMnRqRVVZRDRDQXJ1UE5ET3dZVGZ5Z1hwY24rMjJRY3l6UEd0SE4yVjJPQkpUb1hBPT0.png?imageView&thumbnail=1680x0&quality=96&stripmeta=0&type=jpg"
+			   >
+              </a>
+			  <a style="float:right;right:-100px;top:-580px;">
+			  <img  data-src="http://imglf4.nosdn.127.net/img/Q20zbTVFMnRqRVVZRDRDQXJ1UE5ERnRtY1JRb1E3ejRYMUIvNDQ0TTJQZUN6SkJlenMyL0RBPT0.png?imageView&thumbnail=1680x0&quality=96&stripmeta=0&type=jpg"
+			  >
+               </a>
+			</section>
+			<section>
+				<a> <img data-src="http://imglf6.nosdn.127.net/img/Q20zbTVFMnRqRVVZRDRDQXJ1UE5ET0xueGV4Y2ZHSWlIWklBYXBOVkhxZFNQMXQzdE5KblV3PT0.png?imageView&thumbnail=1680x0&quality=96&stripmeta=0&type=jpg"
+                alt="Up arrow"
+               > </a>
+			   <a> <img data-src="http://imglf4.nosdn.127.net/img/Q20zbTVFMnRqRVVZRDRDQXJ1UE5EUEV5L09SM09pNVZSNnZmNzBHbzFuVXQ3UlJTLzQvZ2RRPT0.png?imageView&thumbnail=1680x0&quality=96&stripmeta=0&type=jpg"
+                alt="Up arrow"
+               > </a>
+
+			</section>
+		</section>
+		<section>
+			<section>
+		</section>
+      </div>
+    </div>  
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.js"></script>
+    <script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+  </body>
+</html>
